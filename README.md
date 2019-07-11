@@ -36,6 +36,6 @@ def  contrastive_loss(y_true, y_pred):
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | Original | Genuine | Forged |
-|<img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/org.png">  Original |  <img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/org_1.png"> Genuine |<img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/forg.png"> Forged|
+|<img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/org.png"> |  <img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/org_1.png">  |<img src="https://github.com/AtharvaKalsekar/SigNet/blob/master/Test%20Images/forg.png"> |
 Distance (compared to original) as output by model : | 0.12116826 | 1.43014560 |
 Predicted Label:| 1 (similar)  | 0 (forged) |

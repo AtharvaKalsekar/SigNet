@@ -2,7 +2,7 @@
 SigNet is a Siamese Convolutional Neural Network modeled to verify original and forged signatures offline. It takes just one genuine signature of a person and then all other signatures whether genuine or fraudulent can then be verified by it. This [paper](https://arxiv.org/abs/1707.02131) can be referred for better understanding.
 
 #### Preparing the dataset
-1. The model is trained on CEDAR dataset which can be downloaded from [here](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar)
+1. The model is trained on CEDAR dataset which can be downloaded from [here](http://www.cedar.buffalo.edu/NIJ/data/signatures.rar).
 2. Extract the files and then you will get the following file structure :
 ```
 |-- signatures
@@ -19,7 +19,7 @@ SigNet is a Siamese Convolutional Neural Network modeled to verify original and 
 
 
 #### Training
-The model is trained on **colab** using both keras and tansorflow which can be found here [signet_keras.ipynb](https://github.com/AtharvaKalsekar/SigNet/blob/master/signet_keras.ipynb) and [signet.ipynb](https://github.com/AtharvaKalsekar/SigNet/blob/master/signet.ipynb) respectively. The train accuracy of the model so far is **81.42%**. Better results can be achieved by augmenting the dataset with more examples.
+The model is trained on **colab** using both keras and tansorflow which can be found here [signet_keras.ipynb](https://github.com/AtharvaKalsekar/SigNet/blob/master/signet_keras.ipynb) and [signet_tf.ipynb](https://github.com/AtharvaKalsekar/SigNet/blob/master/signet_tf.ipynb) respectively. The train accuracy of the model so far is **81.42%**. Better results can be achieved by augmenting the dataset with more examples.
 
 #### Loss Function
 Contrastive loss was used for the training purpose alongside RMSprop optimizer.
